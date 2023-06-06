@@ -18,7 +18,7 @@ Default region name [None]: us-east-1
 Default output format [None]:
 ```
 
-## Create SQS queue
+## Criar fila SQS
 
 Crie uma fila SQS e armazene o URL da fila na variável de ambiente, pois precisaremos fornecê-la ao nosso aplicativo
 ```
