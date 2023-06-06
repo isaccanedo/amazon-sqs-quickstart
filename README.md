@@ -20,7 +20,7 @@ Default output format [None]:
 
 ## Create SQS queue
 
-Create a SQS queue and store Queue url in environment variable as we will need to provide it to the our app
+Crie uma fila SQS e armazene o URL da fila na variável de ambiente, pois precisaremos fornecê-la ao nosso aplicativo
 ```
 $> QUEUE_URL=`aws sqs create-queue --queue-name=ColliderQueue --profile localstack --endpoint-url=http://localhost:8010`
 ```
