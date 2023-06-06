@@ -31,7 +31,7 @@ $> QUEUE_URL=`aws sqs create-queue --queue-name=ColliderQueue --profile localsta
 - In dev mode `./mvnw clean quarkus:dev -Dqueue.url=$QUEUE_URL`
 
 ## Enviar mensagens para a fila
-Shoot with a couple of quarks
+Atire com um par de quarks
 ```
 curl -XPOST -H"Content-type: application/json" http://localhost:8080/sync/cannon/shoot -d'{"flavor": "Charm", "spin": "1/2"}'
 curl -XPOST -H"Content-type: application/json" http://localhost:8080/sync/cannon/shoot -d'{"flavor": "Strange", "spin": "1/2"}'
