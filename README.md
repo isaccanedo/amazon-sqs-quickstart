@@ -1,4 +1,4 @@
-# Quarkus demo: SQS Client
+# Demonstração do Quarkus: Cliente SQS
 
 Este exemplo mostra como usar o cliente AWS SQS com o Quarkus. Como pré-requisito, instale a [interface de linha de comando da AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html).
 
