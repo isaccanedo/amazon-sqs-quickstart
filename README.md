@@ -8,7 +8,7 @@ Basta executá-lo da seguinte maneira para iniciar o SQS localmente:
 `docker run --rm --name local-sqs -p 8010:4566 -e SERVICES=sqs -e START_WEB=0 -d localstack/localstack:1.4.0`
 O SQS escuta em `localhost:8010` para endpoints REST.
 
-Create an AWS profile for your local instance using AWS CLI:
+Crie um perfil da AWS para sua instância local usando a AWS CLI:
 
 ```
 $ aws configure --profile localstack
