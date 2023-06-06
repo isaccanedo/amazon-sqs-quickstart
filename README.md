@@ -36,7 +36,7 @@ Atire com um par de quarks
 curl -XPOST -H"Content-type: application/json" http://localhost:8080/sync/cannon/shoot -d'{"flavor": "Charm", "spin": "1/2"}'
 curl -XPOST -H"Content-type: application/json" http://localhost:8080/sync/cannon/shoot -d'{"flavor": "Strange", "spin": "1/2"}'
 ```
-And receive it from the queue
+E receba da fila
 ```
 curl http://localhost:8080/sync/cannon/shoot
 ```
