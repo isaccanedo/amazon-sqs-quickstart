@@ -6,7 +6,7 @@ Este exemplo mostra como usar o cliente AWS SQS com o Quarkus. Como pré-requisi
 
 Basta executá-lo da seguinte maneira para iniciar o SQS localmente:
 `docker run --rm --name local-sqs -p 8010:4566 -e SERVICES=sqs -e START_WEB=0 -d localstack/localstack:1.4.0`
-SQS listens on `localhost:8010` for REST endpoints.
+O SQS escuta em `localhost:8010` para endpoints REST.
 
 Create an AWS profile for your local instance using AWS CLI:
 
