@@ -25,7 +25,7 @@ Crie uma fila SQS e armazene o URL da fila na variável de ambiente, pois precis
 $> QUEUE_URL=`aws sqs create-queue --queue-name=ColliderQueue --profile localstack --endpoint-url=http://localhost:8010`
 ```
 
-# Run the demo on dev mode
+# Execute a demonstração no modo dev
 
 - Run `./mvnw clean package` and then `java -Dqueue.url=$QUEUE_URL -jar ./target/quarkus-app/quarkus-run.jar`
 - In dev mode `./mvnw clean quarkus:dev -Dqueue.url=$QUEUE_URL`
