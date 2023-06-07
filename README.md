@@ -41,7 +41,7 @@ E receba da fila
 curl http://localhost:8080/sync/cannon/shoot
 ```
 
-Repeat the same using async endpoints
+Repita o mesmo usando endpoints assíncronos
 ```
 curl -XPOST -H"Content-type: application/json" http://localhost:8080/async/cannon/shoot -d'{"flavor": "Charm", "spin": "1/2"}'
 curl -XPOST -H"Content-type: application/json" http://localhost:8080/async/cannon/shoot -d'{"flavor": "Strange", "spin": "1/2"}'
