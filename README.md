@@ -67,7 +67,7 @@ and run with:
 Crie uma imagem nativa no contêiner executando:
 `./mvnw package -Pnative -Dnative-image.docker-build=true`
 
-Build a docker image:
+Crie uma imagem do docker:
 `docker build -f src/main/docker/Dockerfile.native -t quarkus/amazon-sqs-quickstart .`
 
 Create a network that connect your container with localstack
