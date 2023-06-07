@@ -51,7 +51,7 @@ E receba da fila
 curl http://localhost:8080/async/cannon/shoot
 ```
 
-# Running in native
+# Rodando em nativo
 
 You can compile the application into a native binary using:
 
