@@ -62,7 +62,7 @@ and run with:
 `./target/amazon-sqs-quickstart-1.0.0-SNAPSHOT-runner` 
 
 
-# Running native in container
+# Executando nativo no contêiner
 
 Build a native image in container by running:
 `./mvnw package -Pnative -Dnative-image.docker-build=true`
