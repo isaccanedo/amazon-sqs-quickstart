@@ -73,7 +73,7 @@ Crie uma imagem do docker:
 Crie uma rede que conecte seu container com localstack
 `docker network create localstack`
 
-Stop your localstack container you started at the beginning
+Pare seu contêiner localstack que você iniciou no início
 `docker stop local-sqs`
 
 Start localstack and connect to the network
