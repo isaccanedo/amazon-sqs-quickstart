@@ -79,7 +79,7 @@ Pare seu contêiner localstack que você iniciou no início
 Inicie o localstack e conecte-se à rede
 `docker run --rm --network=localstack --name localstack -p 8010:4566 -e SERVICES=sqs -e START_WEB=0 -d localstack/localstack:1.4.0`
 
-Create queue
+Criar fila
 ```
 $> QUEUE_URL=`aws sqs create-queue --queue-name=ColliderQueue --profile localstack --endpoint-url=http://localhost:8010`
 ```
