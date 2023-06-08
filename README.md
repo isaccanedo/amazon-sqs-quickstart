@@ -86,7 +86,7 @@ $> QUEUE_URL=`aws sqs create-queue --queue-name=ColliderQueue --profile localsta
 Execute o contêiner de início rápido conectado a essa rede (observe que estamos usando a porta interna do localstack)
 `docker run -i --rm --network=localstack -p 8080:8080 quarkus/amazon-sqs-quickstart -Dquarkus.sqs.endpoint-override=http://localstack:4566`
 
-Send messsage
+Enviar mensagem
 ```
 curl -XPOST -H"Content-type: application/json" http://localhost:8080/sync/cannon/shoot -d'{"flavor": "Charm", "spin": "1/2"}'
 ```
