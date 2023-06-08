@@ -76,7 +76,7 @@ Crie uma rede que conecte seu container com localstack
 Pare seu contêiner localstack que você iniciou no início
 `docker stop local-sqs`
 
-Start localstack and connect to the network
+Inicie o localstack e conecte-se à rede
 `docker run --rm --network=localstack --name localstack -p 8010:4566 -e SERVICES=sqs -e START_WEB=0 -d localstack/localstack:1.4.0`
 
 Create queue
